@@ -1,4 +1,3 @@
-
 #include "lista.h"
 
 
@@ -12,5 +11,5 @@ typedef struct tabuleiro{
     char alvo;
 }Tabuleiro;
 
-void cria_tab();
+void cria_tab(int altura, int largura, char alvo);
 
